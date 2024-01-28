@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="transactions.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bankdash</title>
+</head>
+
+<body>
+    <div class="main">
+        <aside class="aside">
+            <div class="logo">
+                <img src="images/logo.svg" alt="img">
+            </div>
+            <nav>
+                <div class="nav-item">
+                        <a class="menu-button underline" href="index.html">
+                            <img src="transaction-images/home.svg" alt="img">
+                            dashboard
+                        </a>
+                </div>
+                <div class="nav-item">
+                    <div class="nav__item__active"></div>
+                    <a class="menu-button underline active-button" href="transactions.html">
+                        <img src="transaction-images/transfer-bluesvg.svg" alt="img">
+                        Transactions</a>
+                </div>
+                <div class="nav-item ">
+                    <a class="menu-button">
+                        <img src="images/user.svg" alt="img">
+                        Accounts
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a class="menu-button">
+                        <img src="images/economic-investment.svg" alt="img">
+                        Investments
+                    </a>
+                </div>
+                <div class="nav-item ">
+                    <a class="menu-button">
+                        <img src="images/credit-card.svg" alt="img">
+                        Credit Cards
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a class="menu-button">
+                        <img src="images/loan.svg" alt="img">
+                        Loans
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a class="menu-button">
+                        <img src="images/service.svg" alt="img">
+                        Services
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a class="menu-button">
+                        <img src="images/econometrics.svg" alt="img">
+                        My Privileges
+                    </a>
+                </div>
+                <div class="nav-item ">
+                    <a class="menu-button">
+                        <img src="images/settings-solid.svg" alt="img">
+                        Setting
+                    </a>
+                </div>
+            </nav>
+        </aside>
+        <div class="wrapper">
+            <div class="header">
+                <h1>Overview</h1>
+                <div class="header-buttons">
+                    <div class="search">
+                        <img src="images/search.svg" alt="img">
+                        <input type="search" placeholder="Search for something">
+                    </div>
+                    <div class="circle-container">
+                        <img src="images/settings.svg" class="circles" alt="img">
+                    </div>
+                    <div class="circle-container">
+                        <img src="images/notiication.svg" class="circles" alt="img">
+                    </div>
+                    <div class="circle-container">
+                        <img src="images/pfp.svg" class="circles" alt="img">
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-wrapper ">
+                    <section class="first">
+                        <div class="first-left">
+                            <div class="first-titles">
+                                <p>My Cards</p>
+                                <button class="button">+ Add card</button>
+                            </div>
+                            <div class="first-cards">
+                                <div class="first-card first__card--blue rounder">
+                                    <div class="blue-card-info-container">
+                                        <div class="blue-card-info">
+                                            <p class="Balance">Balance</p>
+                                            <p>$5,756</p>
+                                        </div>
+                                        <img src="images/Chip_Card.svg" alt="img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-holder">
+                                            <p class="light-text">CARD HOLDER</p>
+                                            <p>Eddy Cusuma</p>
+                                        </div>
+                                        <div class="validity">
+                                            <p class="light-text">VALID THRU</p>
+                                            <p>12/22</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <p>3778 **** **** 1234</p>
+                                        <img src="images/mastercard.svg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="first-card first__card--white rounder ">
+                                    <div class="blue-card-info-container black">
+                                        <div class="blue-card-info">
+                                            <p class="Balance">Balance</p>
+                                            <p>$5,756</p>
+                                        </div>
+                                        <img src="images/Chip_Card-black.svg" alt="img">
+                                    </div>
+                                    <div class="card-info black">
+                                        <div class="card-holder">
+                                            <p class="light-text">CARD HOLDER</p>
+                                            <p>Eddy Cusuma</p>
+                                        </div>
+                                        <div class="validity black">
+                                            <p class="light-text">VALID THRU</p>
+                                            <p>12/22</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom black">
+                                        <p>3778 **** **** 1234</p>
+                                        <img src="images/black-mastercard.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-expense">
+                            <div class="expense-title">
+                                <p>My Expense</p>
+                            </div>
+                            <div class="expense-statistics">
+                                <img src="transaction-images/expense-statistic.svg" alt="img">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="first column">
+                        <div class="first-title">
+                            <p>Recent Transactions</p>
+                        </div>
+                        <div class="table-selector">
+                            <div class="blue">
+                                <p>All Transactions</p>
+                                <div class="blue-thing"></div>
+                            </div>
+                            <div>
+                                <button class="browse">Income</button>
+                            </div>
+                            <div>
+                                <button class="browse">Expense</button>
+                            </div>
+                        </div>
+                        <div>
+                            <table class="transactions-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Transaction ID</th>
+                                        <th>Type</th>
+                                        <th>Card</th>
+                                        <th>Date</th>
+                                        <th>Amount</th>
+                                        <th>Receipt</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="middle">
+                                            <img src="transaction-images/arrow-up.svg" alt="img">
+                                            Spotify Subscription
+                                        </td>
+                                        <td>#12548796</td>
+                                        <td>Shopping</td>
+                                        <td>1234 ****</td>
+                                        <td>28 Jan, 12.30 AM</td>
+                                        <td class="red">-$2,500</td>
+                                        <td class="download"> <button class="download">Download</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="transaction-images/arrow-down.svg" alt="img">
+                                            Spotify Subscription
+                                        </td>
+                                        <td>#12548796</td>
+                                        <td>Transfer</td>
+                                        <td>1234 ****</td>
+                                        <td>25 Jan, 10.40 PM</td>
+                                        <td class="green">+$750</td>
+                                        <td class="download"> <button class="download">Download</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="transaction-images/arrow-up.svg" alt="img">
+                                            Spotify Subscription
+                                        </td>
+                                        <td>#12548796</td>
+                                        <td>Service</td>
+                                        <td>1234 ****</td>
+                                        <td>20 Jan, 10.40 PM</td>
+                                        <td class="red">-$150</td>
+                                        <td class="download"> <button class="download">Download</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="transaction-images/arrow-up.svg" alt="img">
+                                            Spotify Subscription
+                                        </td>
+                                        <td>#12548796</td>
+                                        <td>Transfer</td>
+                                        <td>1234 ****</td>
+                                        <td>15 Jan, 03.29 PM</td>
+                                        <td class="red">-$1050</td>
+                                        <td class="download"> <button class="download">Download</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="transaction-images/arrow-down.svg" alt="img">
+                                            Spotify Subscription
+                                        </td>
+                                        <td>#12548796</td>
+                                        <td>Transfer</td>
+                                        <td>1234 ****</td>
+                                        <td>14 Jan, 10.40 PM</td>
+                                        <td class="green">+$840</td>
+                                        <td class="download"> <button class="download">Download</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    <div class="page-browser">
+                        <div class="flex browse-btns">
+                            <button class="border">
+                                &lt; Previous </button>
+                            <button class="blue-back border">1</button>
+                            <button class="border">2</button>
+                            <button class="border">3</button>
+                            <button class="border">4</button>
+                            <button class="border">Next ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
